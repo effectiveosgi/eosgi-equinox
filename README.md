@@ -1,12 +1,10 @@
-USAGE:
+USAGE
 =====
 
-1. Download latest "Photon Integration Build" from http://download.eclipse.org/equinox/
-2. Copy to this folder and:
+ 1. Download latest [Photon Integration Build](http://download.eclipse.org/equinox/)
+    (selecting "Framework Only") into this folder.
 
-	ln -f <latest_download> current.jar
+ 2. Edit `QUALIFIER` in `deploy-snapshot.jar` to the qualifier found in the JAR file
+    name, e.g. `v20171215-2014`.
 
-3. Run:
-
-	./deploy-snapshot.sh
-
+ 3. Run `./deploy-snapshot.sh`.
